@@ -6,6 +6,15 @@
 
 A sophisticated form building and data collection platform designed for creating dynamic, intelligent forms with advanced validation, real-time processing, and seamless integration capabilities. This platform revolutionizes how businesses collect and manage data through customizable form solutions.
 
+## Stack Overview
+
+| Layer | Technologies |
+|--------|----------------|
+| **Frontend** | React 19, TypeScript, Vite, TailwindCSS v4, React Router v7, Lucide React, Motion |
+| **Backend** | Express.js, WebSocket, TypeScript |
+| **Data** | Form submissions, User data, Integration webhooks |
+| **Infra** | Vercel deployment, GitHub Actions CI |
+
 ## Features
 
 - **Dynamic Form Builder**: Drag-and-drop form creation interface
@@ -71,7 +80,7 @@ Form Function is evolving into a comprehensive form ecosystem:
    # Configure integration APIs in .env.local
    ```
 
-3. **Run the platform**:
+3. **Run platform**:
    ```bash
    npm run dev
    ```
